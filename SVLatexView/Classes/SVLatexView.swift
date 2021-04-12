@@ -92,9 +92,14 @@ public class SVLatexView: WKWebView, WKNavigationDelegate {
     public func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
         evaluateJavaScript("document.readyState", completionHandler: { [weak self] (complete, error) in
             if complete != nil {
-                self?.evaluateJavaScript("document.body.scrollHeight", completionHandler: { [weak self] (height, error) in
+//                self?.evaluateJavaScript("document.body.scrollHeight", completionHandler: { [weak self] (height, error) in
+//                    self?.updateViewSize(height: height as! CGFloat)
+//                })
+              DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+                self?.evaluateJavaScript("Math.max(document.body.scrollHeight, document.body.offsetHeight, document.documentElement.clientHeight, document.documentElement.scrollHeight, document.documentElement.offsetHeight)", completionHandler: { [weak self] (height, error) in
                     self?.updateViewSize(height: height as! CGFloat)
                 })
+              }
             }
 
         })
