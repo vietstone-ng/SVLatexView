@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Mazorati' => 'alex@svntech.ru' }
   s.source           = { :git => 'https://github.com/Mazorati/SVLatexView.git', :tag => s.version.to_s }
-  s.ios.deployment_target = '11.0'
+  s.ios.deployment_target = '9.0'
   s.resources = ['SVLatexView/Libs/*']
   s.source_files = 'SVLatexView/Classes/**/*'
   
