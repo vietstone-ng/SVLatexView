@@ -16,6 +16,10 @@
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		A060540022D76F5400CC11E5 /* formula.txt in Resources */ = {isa = PBXBuildFile; fileRef = A06053FF22D76F5400CC11E5 /* formula.txt */; };
 		AEEFD045D3D2C89B44C74C12 /* Pods_SVLatexView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF923FDA0280B627770C2192 /* Pods_SVLatexView_Example.framework */; };
+		B162A5F42624E4530060235F /* formula2.txt in Resources */ = {isa = PBXBuildFile; fileRef = B162A5F02624E4520060235F /* formula2.txt */; };
+		B162A5F52624E4530060235F /* formula4.txt in Resources */ = {isa = PBXBuildFile; fileRef = B162A5F12624E4520060235F /* formula4.txt */; };
+		B162A5F62624E4530060235F /* formula3.txt in Resources */ = {isa = PBXBuildFile; fileRef = B162A5F22624E4520060235F /* formula3.txt */; };
+		B162A5F72624E4530060235F /* formula5.txt in Resources */ = {isa = PBXBuildFile; fileRef = B162A5F32624E4530060235F /* formula5.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +47,10 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		A06053FF22D76F5400CC11E5 /* formula.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = formula.txt; sourceTree = "<group>"; };
 		A5AAE50F3595591BDDD17CBD /* Pods-SVLatexView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SVLatexView_Tests.release.xcconfig"; path = "Target Support Files/Pods-SVLatexView_Tests/Pods-SVLatexView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B162A5F02624E4520060235F /* formula2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = formula2.txt; sourceTree = "<group>"; };
+		B162A5F12624E4520060235F /* formula4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = formula4.txt; sourceTree = "<group>"; };
+		B162A5F22624E4520060235F /* formula3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = formula3.txt; sourceTree = "<group>"; };
+		B162A5F32624E4530060235F /* formula5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = formula5.txt; sourceTree = "<group>"; };
 		B6CE7A269E6A6B148A67183F /* Pods-SVLatexView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SVLatexView_Example.debug.xcconfig"; path = "Target Support Files/Pods-SVLatexView_Example/Pods-SVLatexView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CAC8E62E4F4A36754CA191A2 /* Pods_SVLatexView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SVLatexView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6785F055EB3E521A55AEC66 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -102,6 +110,10 @@
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 				A06053FF22D76F5400CC11E5 /* formula.txt */,
+				B162A5F02624E4520060235F /* formula2.txt */,
+				B162A5F22624E4520060235F /* formula3.txt */,
+				B162A5F12624E4520060235F /* formula4.txt */,
+				B162A5F32624E4530060235F /* formula5.txt */,
 			);
 			name = "Example for SVLatexView";
 			path = SVLatexView;
@@ -249,9 +261,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B162A5F42624E4530060235F /* formula2.txt in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				B162A5F52624E4530060235F /* formula4.txt in Resources */,
+				B162A5F72624E4530060235F /* formula5.txt in Resources */,
+				B162A5F62624E4530060235F /* formula3.txt in Resources */,
 				A060540022D76F5400CC11E5 /* formula.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -315,8 +331,6 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SVLatexView_Example/Pods-SVLatexView_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
@@ -325,8 +339,6 @@
 				"${BUILT_PRODUCTS_DIR}/SVLatexView/SVLatexView.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",

@@ -1,0 +1,1 @@
+To solve the equation, factor $x^{2}-4x-5$ using formula $x^{2}+\left(a+b\right)x+ab=\left(x+a\right)\left(x+b\right)$. To find $a$ and $b$, set up a system to be solved.
